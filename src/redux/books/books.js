@@ -15,7 +15,7 @@ export const removeBook = (payload) => ({
   payload,
 });
 
-export default function counterReducer(state = defaultState, action) {
+export default function books(state = defaultState, action) {
   switch (action.type) {
     case CREATE:
       return [...state, action.payload];

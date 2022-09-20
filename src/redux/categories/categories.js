@@ -1,4 +1,4 @@
-const CHECK = 'CHECK';
+const CHECK = 'bookstore/categories/CHECK';
 
 const defaultStateCat = [];
 
@@ -8,7 +8,7 @@ export const checkCategory = (payload) => ({
   payload,
 });
 
-export default function checkCategoryReducer(state = defaultStateCat, action) {
+export default function Categories(state = defaultStateCat, action) {
   switch (action.type) {
     case CHECK:
       return 'Under Construction';
