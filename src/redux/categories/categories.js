@@ -3,9 +3,9 @@ const CHECK = 'bookstore/categories/CHECK';
 const defaultStateCat = [];
 
 // define check category action
-export const checkCategory = (payload) => ({
+export const checkCategory = (category) => ({
   type: CHECK,
-  payload,
+  category,
 });
 
 export default function Categories(state = defaultStateCat, action) {
