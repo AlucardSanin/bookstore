@@ -3,15 +3,15 @@ const CHECK = 'bookstore/categories/CHECK';
 const defaultStateCat = [];
 
 // define check category action
-export const checkCategory = (payload) => ({
+export const checkCategory = (category) => ({
   type: CHECK,
-  payload,
+  category,
 });
 
 export default function Categories(state = defaultStateCat, action) {
   switch (action.type) {
     case CHECK:
-      return 'Under Construction';
+      return window.alert('Under Construction');
 
     default:
       return state;
