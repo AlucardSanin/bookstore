@@ -14,9 +14,7 @@ function BooksContainer() {
   return (
     <>
       <div id="books-list">
-        {books.map((book) => (
-          <BookItem key={book.id} book={book} />
-        ))}
+        {books.map((book) => <BookItem key={book.item_id} book={book} />)}
       </div>
       <Form />
     </>
