@@ -20,7 +20,7 @@ function BookItem(props) {
             type="button"
             className="btn"
             id="comment"
-            onClick={() => dispatch(removeBook(book.id))}
+            onClick={() => dispatch(removeBook(book))}
           >
             Remove
           </button>
