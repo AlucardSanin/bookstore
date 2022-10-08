@@ -28,27 +28,11 @@ Link will be displayed here soon...
 
 4. "code ." To open the project on your local editor
 
-5. Please click on the "acess link" so you can view the live demo
-
-6. You can use to make any mathematical operations/calculations.
-
 ## Author :writing_hand: 
 
 :man_technologist:  **David Isea**
-
-- GitHub: [@AlucardSanin](https://github.com/AlucardSanin)
-- Twitter: [@cadivisea](https://twitter.com/cadivisea)
-- LinkedIn: [David Isea](https://www.linkedin.com/in/david-isea-560424236/)
-
-## Project Milestones
-
-- Milestone 1: Setup. :heavy_check_mark:  
-- Milestone 2: Components. :heavy_check_mark: 
-- Milestone 3: Events. :heavy_check_mark:
-- Milestone 4: Refactor with hooks. :heavy_check_mark:
-- Milestone 5: Full website. :gear:
-- Milestone 6: Tests (pair programming). :hammer_and_wrench:
-- Milestone 7: Deploy. :hammer_and_wrench:
+🙆‍♀️ **Edith Oga**
+🙅‍♀️ **Marlyn Mayienga**
 
 
 ## 🤝 Contributing
