@@ -1,11 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
-import books from './books/books';
-import categories from './categories/categories';
+import rocketStore from './Rockets/rockets';
+import missionsReducer from './Missions/missions';
+import dragonsReducer from './Dragons/dragons';
 
 const store = configureStore({
   reducer: {
-    count: books,
-    check: categories,
+    storeSlice: rocketStore,
+    missions: missionsReducer,
+    dragonSlice: dragonsReducer,
   },
 });
 
